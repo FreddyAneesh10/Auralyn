@@ -12,6 +12,14 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return const Scaffold(
       backgroundColor: Colors.purpleAccent,
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text('Auralyn musics',style: TextStyle(color: Colors.red,fontSize: 30),)
+          ],
+        ),
+      ),
     );
   }
 }
