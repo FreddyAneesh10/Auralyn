@@ -1,0 +1,2 @@
+# Auralyn
+A musical platform
